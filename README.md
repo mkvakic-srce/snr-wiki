@@ -6,4 +6,6 @@ SNR wiki
 
 ## How
 
-https://squidfunk.github.io/mkdocs-material/getting-started/
+mkdocs: https://www.mkdocs.org/
+
+mkdocs-material: https://squidfunk.github.io/mkdocs-material/getting-started/
