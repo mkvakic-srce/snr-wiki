@@ -1,4 +1,29 @@
-site_name: My Docs
+site_name: Sektor za napredno računanje
+
+nav:
+  - Dobrodošli: 'index.md'
+  - Pravila: 'pravila.md'
+  - Prijava: 'prijava.md'
+  - HPC:
+      Uvod: 'hpc-uvod.md'
+      Softver:
+        - Prevoditelji: 'hpc-softver-prevoditelji.md'
+        - Knjižnice: 'hpc-softver-knjiznice.md'
+        - Aplikacije: 'hpc-softver-aplikacije.md'
+      Specifikacije i arhitektura: 'hpc-specifikacije.md'
+  - HTC: 'htc.md'
+  - Podrška: 'podrska.md'
 
 theme:
   name: material
+  palette:
+    - scheme: default
+      primary: red
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
